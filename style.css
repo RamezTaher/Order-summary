@@ -90,6 +90,7 @@ body {
   flex-direction: column;
   row-gap: 5px;
   transform: translateX(-80%);
+  margin:5px;
 }
 .annual-plan {
   font-weight: 800;
