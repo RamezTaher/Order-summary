@@ -8,11 +8,6 @@
   color: hsl(228, 45%, 44%);
 }
 
-/* -FONT SIZE SYSTEM (px)
-      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-      -------06 SPACING SYSTEM (px)
-  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
-
 *:focus {
   outline: none;
 }
@@ -29,7 +24,6 @@ html {
 
 body {
   max-width: 120rem;
-  /* max-height: 80rem; */
   margin: 0 auto;
   background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
@@ -143,7 +137,6 @@ body {
   background-color: rgba(56, 41, 224, 0.95);
   color: #fff;
   box-shadow: 0px 25px 20 px rgba(0, 0, 0, 0.2);
-
   transition: all 0.3s;
 }
 .btn-payment:hover,
