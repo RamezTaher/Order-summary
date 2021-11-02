@@ -44,7 +44,7 @@ body {
   border-radius: 2rem;
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
   max-width: 45rem;
-  margin: 9rem auto;
+  margin: 10rem auto;
 }
 .header-img {
   border-top-left-radius: 2rem;
@@ -96,7 +96,8 @@ body {
   transform: translateX(-80%);
 }
 .annual-plan {
-  font-weight: 700;
+  font-weight: 800;
+  font-size:16px;
 }
 .btn-change:link,
 .btn-change:visited {
