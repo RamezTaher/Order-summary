@@ -8,6 +8,10 @@
   color: hsl(228, 45%, 44%);
 }
 
+/* -FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      -------06 SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
 
 *:focus {
   outline: none;
@@ -40,7 +44,7 @@ body {
   border-radius: 2rem;
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
   max-width: 45rem;
-  margin: 10rem auto;
+  margin: 11rem auto;
 }
 .header-img {
   border-top-left-radius: 2rem;
@@ -82,28 +86,26 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 18px;
 }
 .order-plan {
   font-size: 2rem;
   display: flex;
   flex-direction: column;
   row-gap: 5px;
-  transform: translateX(-80%);
-  margin-left: 70px;
+  transform: translateX(-70%);
 }
 .annual-plan {
   font-weight: 800;
-  font-size:16px;
+  font-size: 16px;
 }
 .btn-change:link,
 .btn-change:visited {
   display: inline-block;
-  font-size: 1.6rem;
-  font-weight: 900;
-  color: hsl(263, 75%, 49%);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsl(245, 75%, 52%);
   text-decoration: inherit underline;
-
   transition: all 0.3s;
 }
 
